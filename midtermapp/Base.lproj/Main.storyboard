@@ -304,10 +304,16 @@
                     </view>
                     <connections>
                         <outlet property="addLabel1" destination="ari-cm-py6" id="s14-Xa-pgT"/>
+                        <outlet property="listItem1" destination="ws0-bJ-bqk" id="mIN-j4-bsF"/>
+                        <outlet property="listItem2" destination="FD6-Yj-Jxq" id="YKy-Yk-aVi"/>
+                        <outlet property="listItem3" destination="cxU-W3-F0L" id="oCu-gN-nEX"/>
+                        <outlet property="listItem4" destination="jT7-hU-p5S" id="okF-hZ-cav"/>
+                        <outlet property="listItem5" destination="mSf-Ut-h30" id="APp-li-Ewf"/>
                         <outlet property="quantityLabel1" destination="KZc-NN-kvE" id="yry-OQ-tps"/>
                         <outlet property="quantityLabel2" destination="fGy-2j-MpU" id="IR8-jA-bG7"/>
                         <outlet property="quantityLabel3" destination="s52-Wc-BJu" id="ZL2-cc-Qsj"/>
                         <outlet property="quantityLabel4" destination="k5U-yC-l3k" id="KTk-xo-JmA"/>
+                        <outlet property="shoppingListName" destination="nl8-EC-SqH" id="HHk-u5-80o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

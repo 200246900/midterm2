@@ -29,6 +29,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var quantityLabel2: UILabel!
     @IBOutlet weak var quantityLabel3: UILabel!
     @IBOutlet weak var quantityLabel4: UILabel!
+    @IBOutlet weak var listItem1: UITextField!
+    @IBOutlet weak var listItem2: UITextField!
+    @IBOutlet weak var listItem3: UITextField!
+    @IBOutlet weak var listItem4: UITextField!
+    @IBOutlet weak var listItem5: UITextField!
+    @IBOutlet weak var shoppingListName: UITextField!
 
     @IBAction func minusLabel1(sender: AnyObject)
     {
@@ -169,6 +175,12 @@ class ViewController: UIViewController {
         quantityLabel2.text="0"
         quantityLabel3.text="0"
         quantityLabel4.text="0"
+        listItem1.text="Enter New List Item"
+        listItem2.text="Enter New List Item"
+        listItem3.text="Enter New List Item"
+        listItem4.text="Enter New List Item"
+        listItem5.text="Enter New List Item"
+        shoppingListName.text="My Shopping List"
     }
     
     
